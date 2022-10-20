@@ -1,0 +1,39 @@
+.flex 
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.flex_center 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex_content 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.g-2 
+{
+    gap: 20px;
+}
+
+.fix-top 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+section 
+{
+    padding: 5rem 0;
+}
+
+

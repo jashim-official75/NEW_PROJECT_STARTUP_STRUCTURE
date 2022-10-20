@@ -1,0 +1,48 @@
+
+// ===================================== //
+// COLOR
+// ===================================== //
+// BASIC COLOR
+$primary-color:#F2BC57;
+$primary-color-1:#F2DFA7;;
+$secondary-color: #F2A516;
+$text-color:#0D0D0D;
+$light-gray:#F2F2F2;
+
+// DARK-VARIANT
+$dark-color-1: rgba(0,0,0,0.1);
+$dark-color-2: rgba(0,0,0,0.2);
+$dark-color-3: rgba(0,0,0,0.3);
+$dark-color-4: rgba(0,0,0,0.4);
+$dark-color-5: rgba(0,0,0,0.5);
+$dark-color-6: rgba(0,0,0,0.6);
+$dark-color-7: rgba(0,0,0,0.7);
+$dark-color-8: rgba(0,0,0,0.8);
+$paragraph-color: rgba($text-color, 0.5);
+// WHITE VARIANT
+$white-color:#fff;
+$white-color-1:rgba(255, 255, 255, 0.1);
+$white-color-2:rgba(255, 255, 255, 0.2);
+$white-color-3:rgba(255, 255, 255, 0.3);
+$white-color-4:rgba(255, 255, 255, 0.4);
+$white-color-6:rgba(255, 255, 255, 0.6);
+$white-color-8:rgba(255, 255, 255, 0.8);
+$white-color-1:rgba($white-color,0.1);
+$half-white:rgba($white-color, 0.5);
+// GRADIENT
+$gradient:linear-gradient(to top,#F2BC57,#F2A516);
+$dark-gradient: linear-gradient(270deg, #000000 0%, rgba(196, 196, 196, 0) 134.37%);
+
+// ===================================== //
+// DEFAULT SHADOW
+// ===================================== //
+
+$shadow: 0 0.5rem 2rem rgba($text-color, 0.15) !default;
+
+// ===================================== //
+// FONT VARIABLES
+// ===================================== //
+
+$poppins: 'Poppins', sans-serif;
+$quicksand: 'Quicksand', sans-serif;
+
